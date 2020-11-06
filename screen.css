@@ -42,11 +42,6 @@ line-height : 1.5;
 
 .nav{
   float : left;
-  display : inline-flex;
-  flex-direction : column;
-  text-align : left;
-  height : 1260px;
-  padding-left : 10px;
   margin-right : 10px;
 }
 
@@ -54,7 +49,7 @@ line-height : 1.5;
   display : flex;
   width : 100px;
   height : 20px;
-  padding : 10px 0 10px 0;
+  padding : 10px;
 }
 
 .nav a{
@@ -77,6 +72,6 @@ line-height : 1.5;
 }
 
 .content{
-  margin-left : 250px
-  color : red;
+  display : inline-block;
+  width : 800px;
 }
