@@ -1,0 +1,77 @@
+.content{
+  position : absolute;
+  top : 60px;
+}
+
+.content_title{
+  display : flex;
+  margin : 5px 50px;
+}
+
+.scrollSlider div.viewport {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; }
+
+  .scrollSlider div.viewport div.overview {
+    width: 10000px;
+    height: 100%;
+  }
+
+  .scrollSlider div.viewport div.overview div{
+    display: block;
+    float: left;
+
+    width : 500px;
+    height : 560px;
+
+    padding : 0px 15px;
+    margin-left : 5px;
+    margin-right: 5px;
+    border : black 2px solid;
+    text-align : left;
+
+    color : black;
+  }
+
+  .scrollSlider div.viewport div.overview div p{font-size : 14px;}
+  .scrollSlider div.viewport div.overview div ul{font-size : 14px;}
+
+  .scrollSlider div.viewport div.overview div:first-child {
+          margin-left: 50px; }
+  .scrollSlider div.viewport div.overview div:last-child {
+          margin-right: 50px; }
+
+/*
+.scrollSlider div.viewport div.overview img {
+      display: block;
+      float: left;
+      height: 100%;
+      margin-right: 5px; }
+
+      .scrollSlider div.viewport div.overview img:last-child {
+              margin-right: 0; }
+*/
+
+.scrollSlider div.viewport div.overview:after {
+      content: '';
+      display: block;
+      width: 100%;
+      clear: both;
+    }
+
+.scrollSlider div.scrollbar {
+  width: 100%;
+  height: 5px;
+  background-color: lightgray;
+  display :none;
+}
+
+  .scrollSlider div.scrollbar div.track {
+    width: 115px;
+    height: 5px;
+    border-radius : 10px;
+    background-color: black;
+    cursor: move; }
+
+/*# sourceMappingURL=style.css.map */

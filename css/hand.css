@@ -1,0 +1,155 @@
+h1{font-size : 25px;}
+h2{font-size : 22px;}
+h3{font-size : 20px;}
+h4{font-size : 18px;}
+p{font-size : 15px;}
+
+#title{
+  display : none;
+}
+
+.intro {
+  position : absolute;
+  top : 300px;
+  left : 150px;
+}
+
+body {font-family:'Open Sans', sans-serif;
+line-height : 1.5;
+}
+
+.heading{
+  display : block;
+  text-align : center;
+}
+
+.heading img {
+  width : 100%;
+}
+
+.nav{
+  display : inline;
+  text-align : center;
+  height : 280px;
+  padding-bottom : 50px;
+}
+
+.nav-item{
+  display : inline-block;
+  width : 312px;
+  height : 140px;
+  margin : 0 auto;
+  padding : 10px 0 10px 0;
+  background-color : #ebebeb;
+}
+
+.nav a{
+  text-decoration : none;
+  color : black;}
+
+.nav a:hover{color : black;}
+
+.KT{
+  font-size: 40px;
+  margin-bottom : 5px;
+  color : black;
+}
+
+.ET{
+  font-size: 22px;
+  padding-left : 5px;
+}
+
+.subcategory{
+  display : none;
+}
+
+.subcategory_hand{
+  display : flex;
+  list-style : none;
+  font-size : 12px;
+  text-align : left;
+}
+
+.content{
+  display : inline-block;
+  padding-left : 20px;
+  width : 96%;
+
+}
+
+
+.subcategory{
+  display : flex;
+  list-style : none;
+  font-size : 12px;
+  float : right;
+}
+
+.subcategory li{
+  font-size : 40px;
+  padding : 5px 10px;
+  border : solid black 1px;
+  background-color : black ;
+  color : white;
+  border-radius : 100%;
+  text-align : center;
+  margin : 5px 10px;
+}
+
+.subcategory a{
+  text-decoration : none;
+  color : white;
+}
+
+
+.intro {
+  position : absolute;
+  width : 200px;
+  height : 400px;
+  top : 700px;
+  left : 150px;
+}
+
+
+.circle{
+  width : 150px;
+  height : 150px;
+  background : white;
+  border-radius : 50%;
+  font-size : 25px;
+  position : absolute;
+  animation : anim 18s linear infinite;
+  text-align : center;
+  border : black solid 1px;
+}
+
+
+@keyframes anim{
+  0% {
+    top : 200px;
+    left : 0px;
+    transform : rotate(0);
+  }
+  25%{
+    top : 0px;
+  }
+  50%{
+    top : 200px;
+    left : 600px;
+    transform : rotate(360deg);
+    }
+  50.01%{
+    top : 200px;
+    left : 600px;
+    transform : rotate(0);
+  }
+  75%{
+    top : 400px;
+  }
+  100%{
+    top : 200px;
+    left : 0px;
+    transform : rotate(-360deg);
+  }
+}
