@@ -42,16 +42,6 @@
   .scrollSlider div.viewport div.overview div:last-child {
           margin-right: 50px; }
 
-/*
-.scrollSlider div.viewport div.overview img {
-      display: block;
-      float: left;
-      height: 100%;
-      margin-right: 5px; }
-
-      .scrollSlider div.viewport div.overview img:last-child {
-              margin-right: 0; }
-*/
 
 .scrollSlider div.viewport div.overview:after {
       content: '';
