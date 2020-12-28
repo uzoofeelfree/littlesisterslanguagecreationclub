@@ -1,3 +1,18 @@
+.nav{
+  font-size : 25px;
+}
+
+#logo{
+  width : 1000px;
+}
+
+.nav-item{padding : 0 10px;}
+
+
+#bicontent_title{
+  float : left;
+}
+
 .content{
   position : absolute;
   top : 50px;
@@ -11,17 +26,16 @@
 
 .content div{
   width : 850px;
-  margin-bottom : 100px;
-  padding : 50px 15px;
+  margin-bottom : 60px;
+  padding : 20px 15px;
   text-align : left;
 }
 
-.content p{font-size : 22px;}
-.content h4{font-size : 24px;}
-.content h3{font-size : 26px;}
-.content h2{font-size : 28px;}
-.content h1{font-size : 30px;}
-.content ul{font-size : 22px;}
+.content p{font-size : 26px;}
+.content h4{font-size : 28px;}
+.content h3{font-size : 30px;}
+.content h2{font-size : 32px;}
+.content h1{font-size : 34px;}
 
 /*성경*/
 #image_bible {width : 500px; top : 570px; left : 500px;}
