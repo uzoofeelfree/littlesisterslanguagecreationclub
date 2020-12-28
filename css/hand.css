@@ -30,28 +30,28 @@
 #image_dictionnaire {width : 400px; top : 80px; left : 200px;}
 
 /*한복*/
-#image_korean03 {width : 600px; top : 850px;left : 860px;}
+#image_korean03 {width : 600px; top : 1250px;left : 100px;}
 
 /*손*/
 #image_hands {width :1150px; top : 450px; left: 150px;}
 
 /*세종대왕*/
-#image_korean04 {width : 250px; top : 200px; left : 30px;}
+#image_korean04 {width : 300px; top : 250px; left : 30px;}
 
 /*회의장면*/
-#image_academie02{width : 450px; top : 300px; left : 950px;}
+#image_academie02{width : 450px; top : 1300px; left : 750px;}
 
 /*국립원*/
-#image_korean01{width : 360px; top : 100px;left : 850px;}
+#image_korean01{width : 460px; top : 150px;left : 650px;}
 
 /*역사자료*/
-#image_academie01{width : 250px; top : 450px; left : 0px;}
+#image_academie01{width : 280px; top : 480px; left : 50px;}
 
 /*건물*/
 #image_academie03{width : 550px; top : 1000px; left : 350px;}
 
 /*언해본*/
-#image_korean02{width : 300px; top : 780px; left : 50px;}
+#image_korean02{width : 300px; top : 850px; left : 0;}
 
 
 .circle{
@@ -74,22 +74,22 @@
 
 @keyframes anim{
   0% {
-    top : 200px;
+    top : 450px;
     left : 0px;
     transform : rotate(0);
   }
   50%{
-    top : 200px;
-    left : 800px;
+    top : 450px;
+    left : 900px;
     transform : rotate(360deg);
     }
   50.01%{
-    top : 200px;
-    left : 800px;
+    top : 450px;
+    left : 900px;
     transform : rotate(0);
   }
   100%{
-    top : 200px;
+    top : 450px;
     left : 0px;
     transform : rotate(-360deg);
   }
