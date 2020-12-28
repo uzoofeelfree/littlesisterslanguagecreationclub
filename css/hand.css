@@ -2,8 +2,8 @@
   font-size : 25px;
 }
 
-#logo{
-  width : 1000px;
+#main_images{
+  width : 800px;
 }
 
 .nav-item{padding : 0 10px;}
@@ -13,10 +13,31 @@
   float : left;
 }
 
+.bicontent {
+  display : inline-flex;
+}
+
+.bicontent div{
+  border : 2px solid black;
+}
+
+.bicontent #FR{
+  margin-right : 20px;
+  width : 600px;
+}
+
+.bicontent #KR{
+  width : 200px;
+}
+
+.bicontent #KR p{
+  font-size : 30px;
+}
+
 .content{
   position : absolute;
   top : 50px;
-  left : 50px;
+  left : 0px;
   background-color: white;
   display : flex;
   flex-direction : column;
@@ -31,11 +52,11 @@
   text-align : left;
 }
 
-.content p{font-size : 26px;}
-.content h4{font-size : 28px;}
-.content h3{font-size : 30px;}
-.content h2{font-size : 32px;}
-.content h1{font-size : 34px;}
+.content p{font-size : 35px;}
+.content h4{font-size : 38px;}
+.content h3{font-size : 41px;}
+.content h2{font-size : 44px;}
+.content h1{font-size : 47px;}
 
 /*성경*/
 #image_bible {width : 500px; top : 570px; left : 500px;}
