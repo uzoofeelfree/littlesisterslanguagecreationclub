@@ -83,16 +83,9 @@ p{font-size : 15px;}
 
 .bicontent #FR{
   margin-right : 20px;
-  width : 600px;
+  width : 100%;
 }
 
-.bicontent #KR{
-  width : 300px;
-}
-
-.bicontent #KR p{
-  font-size : 12px;
-}
 
 .intro {
   position : absolute;
