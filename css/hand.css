@@ -18,20 +18,16 @@
 }
 
 .bicontent div{
-  border : 2px solid black;
 }
 
 .bicontent #FR{
-  margin-right : 20px;
-  width : 600px;
+  width : 100%;
 }
 
 .bicontent #KR{
-  width : 200px;
 }
 
 .bicontent #KR p{
-  font-size : 30px;
 }
 
 .content{
